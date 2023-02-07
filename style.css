@@ -15,3 +15,7 @@ a:visited {
 html {
     scroll-behavior: smooth;
 }
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
