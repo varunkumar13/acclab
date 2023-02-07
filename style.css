@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    background-color: blueviolet;
+}
+a:visited {
+    background-color: brown;
+    color: green;
+}
+html {
+    scroll-behavior: smooth;
+}
