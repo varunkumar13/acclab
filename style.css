@@ -1,21 +1,66 @@
-body {
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+a{
     text-align: center;
 }
 a:hover {
-    text-decoration: none;
-    color: black;
+    text-decoration: dashed;
+    background-color: burlywood;
+    color: brown;
 }
-a:active {
-    background-color: blueviolet;
+a:active{
+    color:cyan;
+    background-color:black;
 }
 a:visited {
-    background-color: brown;
-    color: green;
+    color: black;
+    background-color: black;
 }
-html {
+html{
     scroll-behavior: smooth;
 }
-table, th, td {
-    border: 1px solid;
+table,tr,th,td{
+    border: 1px solid black;
     border-collapse: collapse;
+}
+ul{
+    list-style-type:square;
+    text-align: left;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+.demo{
+    background-color: coral;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#id1{
+    background-color:cadetblue;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: large;
+}
+form{
+    text-align: center;
+}
+#ipid{
+    text-align: center;
+}
+@media(max-width:600px)
+{
+    body{
+        background-color: aqua;
+    }
+}
+button{
+    align-items: center;
+    text-align: center;
+    
+    width: 150px;
+    background-color: cyan;
+    text-emphasis-color: black;
 }
